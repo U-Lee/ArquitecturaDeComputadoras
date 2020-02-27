@@ -5,6 +5,14 @@
 arreglo DW 1,2,3 ; 16 BITS 
 .code
 inicio PROC
+	;--------------------------------------------------------
+	;
+	;	El siguiente programa lo que realiza es				|
+	;	Sumar los elementos de una palabra y el resultado	|
+	;	lo pone en el ultimo elemento						|	
+	;														|
+	;--------------------------------------------------------
+	
     ;Inicializamos el registro EBX y EBX en 0
     ;EBX = Lo vamos a utlizar para recorrer el arreglo (PALABRA)
     ;DX  = Lo vamos a utilizar para acomular las sumas

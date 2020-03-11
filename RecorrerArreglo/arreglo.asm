@@ -7,6 +7,7 @@ contador DB 0
 .code
 inicio PROC
 	;Programa que nos dicie cuantas veces se repite un elemento en el arrglo (Palabra)
+    ;Tarea : Ahora que el contador indique los números que sean mayores que 5
     MOV EBX, OFFSET arreglo
     MOV ECX,10
     ciclo: 

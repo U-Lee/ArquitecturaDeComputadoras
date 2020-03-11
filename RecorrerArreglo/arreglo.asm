@@ -13,8 +13,8 @@ inicio PROC
         MOV AL,[EBX] ; AL <- arreglo 
         CMP AL,5 ; El número que queremos comparar
         jz es_igual ; seguida de la instrucción JZ (salto si es cero)
-        INC EBX
-        continua: loop ciclo
+    continua: INC EBX
+        loop ciclo
     es_igual:
         INC contador
         jmp continua
